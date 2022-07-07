@@ -1,0 +1,170 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+    <style name="btn_back">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:src">@drawable/btn_back</item>
+        <item name="android:contentDescription">@string/todo</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+    <style name="heart">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="contentDescription">@string/todo</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="layout_constraintStart_toEndOf">@id/btn_back</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+    <style name="waktu">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+    </style>
+    <style name="waktuLight">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+    </style>
+    <style name="koin">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:src">@drawable/koin</item>
+        <item name="contentDescription">@string/todo</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="layout_constraintEnd_toStartOf">@id/koinText</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+    <style name="koinText">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+    <style name="koinTextLight">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+    <style name="star">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:src">@drawable/star</item>
+        <item name="contentDescription">@string/todo</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+    <style name="starText">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintStart_toEndOf">@id/star</item>
+    </style>
+    <style name="starTextLight">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintStart_toEndOf">@id/star</item>
+    </style>
+
+    <style name="question">
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/andika</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">30dp</item>
+    </style>
+    <style name="option_jaringan">
+        <item name="android:onClick">onClick</item>
+        <item name="android:layout_width">230dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/bg_choice_jaringan</item>
+        <item name="fontFamily">@font/andika</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">7dp</item>
+        <item name="android:paddingEnd">7dp</item>
+    </style>
+    <style name="option_multimedia">
+        <item name="android:onClick">onClick</item>
+        <item name="android:layout_width">230dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/bg_choice_multimedia</item>
+        <item name="fontFamily">@font/andika</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">7dp</item>
+        <item name="android:paddingEnd">7dp</item>
+    </style>
+    <style name="option_rpl">
+        <item name="android:onClick">onClick</item>
+        <item name="android:layout_width">230dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/bg_choice_rpl</item>
+        <item name="fontFamily">@font/andika</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">7dp</item>
+        <item name="android:paddingEnd">7dp</item>
+    </style>
+
+
+
+    <style name="btn_menu">
+        <item name="android:fontFamily">@font/grobold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:background">@drawable/btn_onclick</item>
+    </style>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/peta_jaringan"
+    android:paddingHorizontal="@dimen/activity_horizontal_margin"
+    android:paddingVertical="@dimen/activity_vertical_margin"
+    tools:context=".jaringan.MapsJaringan">
+
+    <ImageView
+        android:id="@+id/btn_back"
+        style="@style/btn_back"
+        tools:ignore="ContentDescription,MissingConstraints" />
+<!--    <ImageView-->
+<!--        android:id="@+id/heart"-->
+<!--        style="@style/nyawa"-->
+<!--        android:src="@drawable/heart3"-->
+<!--        tools:ignore="ContentDescription,MissingConstraints" />-->
+    <ImageView
+        android:id="@+id/star"
+        style="@style/star"
+        tools:ignore="ContentDescription,MissingConstraints" />
+    <TextView
+        android:id="@+id/starText"
+        style="@style/starTextLight"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/part1jaringan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="410dp"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/part1jaringan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star_part1jaringan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="410dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@id/part1jaringan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/part2jaringan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="75dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/part2jaringan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="400dp"/>
+
+    <ImageView
+        android:id="@+id/star_part2jaringan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="60dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@id/part2jaringan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="400dp"/>
+
+    <ImageView
+        android:id="@+id/part3jaringan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/part3jaringan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star_part3jaringan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="60dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@id/part3jaringan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/part4jaringan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/part4jaringan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/star_part4jaringan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="60dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@id/part4jaringan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/part5jaringan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/part5jaringan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="280dp"/>
+
+    <ImageView
+        android:id="@+id/star_part5jaringan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="60dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@id/part5jaringan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="280dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

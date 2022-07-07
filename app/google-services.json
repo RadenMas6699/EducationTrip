@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "961471043194",
+    "firebase_url": "https://quizzeducationtrip.firebaseio.com",
+    "project_id": "quizzeducationtrip",
+    "storage_bucket": "quizzeducationtrip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961471043194:android:3ec2cb9c4c1cc3d52c8dc3",
+        "android_client_info": {
+          "package_name": "com.radenmas.educationtrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961471043194-diomiu99152cvsdpo87q4t0bmj3r56c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0C1HmtANBreysEuIOKAVbhKb5SoJ4Pt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961471043194-diomiu99152cvsdpo87q4t0bmj3r56c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

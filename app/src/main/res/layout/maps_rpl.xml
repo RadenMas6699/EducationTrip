@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rpl.MapsRPL"
+    android:background="@drawable/peta_rpl"
+    android:paddingHorizontal="@dimen/activity_horizontal_margin"
+    android:paddingVertical="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/btn_back"
+        style="@style/btn_back"
+        tools:ignore="ContentDescription,MissingConstraints" />
+<!--    <ImageView-->
+<!--        android:id="@+id/heart"-->
+<!--        android:src="@drawable/heart3"-->
+<!--        style="@style/nyawa"-->
+<!--        tools:ignore="ContentDescription,MissingConstraints" />-->
+    <ImageView
+        android:id="@+id/star"
+        style="@style/star"
+        tools:ignore="ContentDescription,MissingConstraints" />
+    <TextView
+        android:id="@+id/starText"
+        style="@style/starText"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/part1rpl"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/part1rpl"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="30dp"/>
+    <ImageView
+        android:id="@+id/star_part1rpl"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/part1rpl"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="60dp"/>
+
+    <ImageView
+        android:id="@+id/part2rpl"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/part2rpl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="50dp"
+        android:padding="2dp"/>
+    <ImageView
+        android:id="@+id/star_part2rpl"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@id/part2rpl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="60dp"/>
+
+    <ImageView
+        android:id="@+id/part3rpl"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/part3rpl"
+        android:contentDescription="@string/todo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="100dp"/>
+    <ImageView
+        android:id="@+id/star_part3rpl"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/part3rpl"
+        android:layout_marginStart="130dp"
+        android:layout_marginBottom="60dp"/>
+
+    <ImageView
+        android:id="@+id/part4rpl"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/part4rpl"
+        android:contentDescription="@string/todo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="170dp"
+        android:layout_marginTop="70dp"/>
+    <ImageView
+        android:id="@+id/star_part4rpl"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/part4rpl"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="65dp"/>
+
+    <ImageView
+        android:id="@+id/part5rpl"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/part5rpl"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20dp"/>
+    <ImageView
+        android:id="@+id/star_part5rpl"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@id/part5rpl"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="60dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
